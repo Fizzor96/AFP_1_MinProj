@@ -30,3 +30,7 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy köny
  * Felhasználó: tudja olvasni a könyveket, megtekintheti az írok élettörténetét, tud értékelni és kommentelhet is
  * Vendég: csak egy betekintő áll rendelkezésre amikor megnyitja a weblapot
  
+ ## 8.Képernyőterv
+ 
+ Főoldalterv:
+ ![Főoldalterv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv.png)
