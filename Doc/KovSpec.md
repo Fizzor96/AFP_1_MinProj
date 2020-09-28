@@ -45,7 +45,8 @@ A megadott szempontok alapján kérem értékelje 1-től 5-ig (1 = nagyon rossz,
 Mennyire releváns az Ön számára az oldal tartalma? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
 Milyen könnyen tud eligazodni az oldalon? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
 Összességében mennyire tetszik Önnek az oldal? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
-Egyéb észrevétel/javaslat: |
+Egyéb észrevétel/javaslat: | 
+
 <br>
 
 ## 10. Fogalomtár
@@ -53,4 +54,4 @@ Egyéb észrevétel/javaslat: |
 - **Reszponzív felület** - Mobilon, Tableten, PC-n igazodik a
 képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül
 üzemelhet
-- **releváns** - fontos, lényeges, meghatározó, jelentős
+- **Releváns** - fontos, lényeges, meghatározó, jelentős

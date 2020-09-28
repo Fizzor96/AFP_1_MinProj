@@ -30,13 +30,13 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy köny
  * Felhasználó: tudja olvasni a könyveket, megtekintheti az írok élettörténetét, tud értékelni és kommentelhet is
  * Vendég: csak egy betekintő áll rendelkezésre amikor megnyitja a weblapot
  
- ## 6.Használati esetek
+ ## 6. Használati esetek
  
 Admin: Az admin hozzáfér a felhasználók listájához, amely felhasználónevet, e-mail címet és jogkört tartalmaz. Ezen kívül hozzáfér a könyvek és az írók/szerzők listájához, amelyeket törölhet, módosíthat és hozzáadhat.
 Felhasználó: A felhasználó megtekintheti a könyvek, valamint az írók/szerzők listáját. Az „Olvasni szeretném!” linkre kattintva letöltheti a számára megfelelő formátumú könyvet, a Háttér történet linken keresztül pedig az adott szerzőről olvashat.
 
  
- ## 8.Képernyőterv
+ ## 8. Képernyőterv
  
  Főoldalterv:
  
@@ -70,3 +70,11 @@ Felhasználó: A felhasználó megtekintheti a könyvek, valamint az írók/szer
  
  ![Írók/Szerzők-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/%C3%8Dr%C3%B3k-Szerz%C5%91k-terv(admin).png)
  
+
+ ## 8. Forgatókönyv
+
+ 
+
+ ## 9. Fogalomszótár
+
+- **UML** - Unified Modeling Language
