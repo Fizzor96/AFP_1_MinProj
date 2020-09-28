@@ -8,13 +8,49 @@ Továbbá lehetőséget biztosítunk egyes írók élettörténetéhez vezető f
 
 Az idő múlásával az emberek egyre kevesebbet, vagy egyáltalán nem is olvasnak könyveket. Egyszerűen kimegy a "divatból" a könyvolvasás, mondhatni nem fordítanak már rá időt, hiszen sok más kikapcsolódási lehetőség adódik a világban.
 Azonban nem mindenkire igaz ez, hiszen továbbra is vannak olyan emberek akiknek szenvedélyük az olvasás. Ezen személyeket szeretnénk a projektünkkel kisegíteni. Nem szabad engedünk, hogy a könyvolvasás az idő süllyesztőjében vesszen el.
-Muszáj támogatnunk azokat akiknek továbbra is szenvedélye az olvasás, hogy fentartsuk az emberekben a könyvek szeretét és hogy meghozzuk mások számára is a kedvet az olvasáshoz. A könyv olvasás kiemelten hasznos, hiszen bővíti az ember szókincsét, segíti a választékos szóhasználat, az összefűggő értelmes mondatalkotást.
+Muszáj támogatnunk azokat, akiknek továbbra is szenvedélye az olvasás, hogy fentartsuk az emberekben a könyvek szeretét és hogy meghozzuk mások számára is a kedvet az olvasáshoz. A könyv olvasás kiemelten hasznos, hiszen bővíti az ember szókincsét, segíti a választékos szóhasználat, az összefűggő értelmes mondatalkotást.
 Manapság már az emberek nem vásárolják meg a könyveket hanem online olvassák ezeket, ez nem is meglepő hiszen a 21. században vagyunk és ez jóval kényelmesebb valamint nem utolsó szempont, hogy költségmentes is. Az interneten rengeteg könyvet találunk meg pdf formátumban, de ezek megtalálása időígényes és összegyüjtése problémás lehet. 
-Ezen szeretnénk egyszerűsíteni úgy, hogy a felhasználóknak összegyűjtjük a könyvekhez vezető forrásokat valamint biztosítunk egy online teret ahol kommunikálhatnak egymással az emberek. Ezzel is támogatva a könyvimádókat valamint bízunk benne, hogy mások is kedvet kapnak az olvasáshoz.
+Ezen szeretnénk egyszerűsíteni úgy, hogy a felhasználóknak összegyűjtjük a könyvekhez vezető forrásokat, valamint biztosítunk egy online teret, ahol kommunikálhatnak egymással az emberek. Ezzel is támogatva a könyvimádókat, valamint bízunk benne, hogy mások is kedvet kapnak az olvasáshoz.
 
-##3. Vágyálom rendszer 
+## 3. Vágyálom rendszer 
 
-A projekt célja egy olyan felület biztosítása, ahol sokkal könnyebb elérni az online könyveket valamint egy online "könyvklub" szerű weblap létrehozása. A projekt csak webes felülettel rendelkezzen. Regisztráció nélkül csak egy betekintő érhető el a látogató számára annak érdekében, hogy bemutassuk milyen opciókkal rendelkezhet regisztráció után.
+A projekt célja egy olyan felület biztosítása, ahol sokkal könnyebb elérni az online könyveket, valamint egy online "könyvklub" szerű weblap létrehozása. A projekt csak webes felülettel rendelkezzen. Regisztráció nélkül csak egy betekintő érhető el a látogató számára annak érdekében, hogy bemutassuk, milyen opciókkal rendelkezhet regisztráció után.
 Miután létrehozta fiókját a felhasználó és bejelentkezett utánna elérhetővé válnak a különböző opciók. Képes a könyvek között keresni, olvasni tudja azokat, értékelni és kommentelni is tud az adott könyvről. Hozzá fér az írók listájához is és megtekintheti azok élettörténetét.
-A könyvek értékeléséhez szükséges egy olyan funkció kialakítása ami pontozási lehetőséget kínál, tegyül fel egy 1-től 5-ig tartó skálán. A weblap maga egy letisztult oldal, könnyen kezelhető mindenki számára egyértelmű működéssel bírjon. A könyveknek rendelkezni kell egy bizonyos színtű leírással vagy esetleg ajánlásokkal.
+A könyvek értékeléséhez szükséges egy olyan funkció kialakítása, ami pontozási lehetőséget kínál, tegyül fel egy 1-től 5-ig tartó skálán. A weblap maga egy letisztult oldal, könnyen kezelhető, mindenki számára egyértelmű működéssel bírjon. A könyveknek rendelkezni kell egy bizonyos színtű leírással vagy esetleg ajánlásokkal.
 Szükség van egy magasabb szintű felhasználóra is, aki rendelkezik jogusoltságokkal a fiókok módosításához, a könyvek feltöltéséhez, törléséhez, módosításához, írók hozzáadásához és módosításához.
+
+## 8. Követelménylista
+
+Modul | ID | Név | Kifejtés
+--- | --- | --- | ----------------------------------------------------------------------
+Jogosultság | K1 | Bejelentkezési felület | A felhasználó a felhasználónevével és jelszava segítségével helentkezhet be. Nem megfelelő felhasználónév vagy jelszó esetén, a felhasználó hibaüzenetet kap.
+Jogosultság | K2 | Regisztrációs felület | A felhasználó felhasználónév, e-mail cím és jelszó megadásával regisztrálhatja magát. A jelszó tárolása kódolt formában történik az adatbázisban. Bármely adat hiánya vagy a követelményeknek való nem megfelelése esetén, a felhasználó hibaüzenetet kap.
+Jogosultság | K3 | Jogosultsági szintek | -Admin: Felhasználók listája, könyvek listája/lista módosítása, írók/szerzők listája/lista módosítása <br> -Felhasználó: Könyvek listája/olvasása, írók/szerzők listája/háttér történet olvasása
+Felület | K4 | Felhasználók listája | Admin jogosultsággal megtekinthető a felhasználók felhasználóneve, e-mail címe és jogosultsági szintje.
+Felület | K5 | Könyvek listája | Admin jogosultsággal megtekinthető és módosítható a könyvek címe és műfaja.
+Felület | K6 | Könyvek | Minden jogosultsági szint hozzáférhet, a könyvek címét, műfaját és egy „Olvasni szeretném!” opciót tartalmaz.
+Felület | K7 | Könyvek olvasása | A Könyvek menüben minden könyv címe, műfaja mellett elérhető egy „Olvasni szeretném!” opció, amely átviszi a felhasználót egy másik oldalra, ahol letöltheti a könyvet több, tetszőleges formátumban. Minden jogosultsági szinten elérhető.
+Felület | K8 | Írók/szerzők | Minden jogosultsági szinten elérhető az írók/szerzők listája, ahol teljes néven, származáson kívül egy „Háttér történet” opció is elérhető, amelyen az adott szerzőről olvashat a felhasználó. Admin jogosultsággal módosítható az írók/szerzők listája.
+
+## 9. Riportok
+
+Riport típusa: irányított.
+
+A megadott szempontok alapján kérem értékelje 1-től 5-ig (1 = nagyon rossz, 5 = nagyon jó) az oldalt.
+
+Értékek | 1 | 2 | 3 | 4 | 5
+--- | --- | --- | --- | --- | ---
+Önnek mennyire tetszik az oldal design-ja? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
+Ön mennyire érzi reszponzívnak az oldalt? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
+Mennyire releváns az Ön számára az oldal tartalma? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
+Milyen könnyen tud eligazodni az oldalon? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
+Összességében mennyire tetszik Önnek az oldal? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
+Egyéb észrevétel/javaslat: |
+<br>
+
+## 10. Fogalomtár
+
+- **Reszponzív felület** - Mobilon, Tableten, PC-n igazodik a
+képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül
+üzemelhet
+- **releváns** - fontos, lényeges, meghatározó, jelentős
