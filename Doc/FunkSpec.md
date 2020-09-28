@@ -30,6 +30,12 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy köny
  * Felhasználó: tudja olvasni a könyveket, megtekintheti az írok élettörténetét, tud értékelni és kommentelhet is
  * Vendég: csak egy betekintő áll rendelkezésre amikor megnyitja a weblapot
  
+ ## 6.Használati esetek
+ 
+Admin: Az admin hozzáfér a felhasználók listájához, amely felhasználónevet, e-mail címet és jogkört tartalmaz. Ezen kívül hozzáfér a könyvek és az írók/szerzők listájához, amelyeket törölhet, módosíthat és hozzáadhat.
+Felhasználó: A felhasználó megtekintheti a könyvek, valamint az írók/szerzők listáját. Az „Olvasni szeretném!” linkre kattintva letöltheti a számára megfelelő formátumú könyvet, a Háttér történet linken keresztül pedig az adott szerzőről olvashat.
+
+ 
  ## 8.Képernyőterv
  
  Főoldalterv:
