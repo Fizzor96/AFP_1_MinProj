@@ -33,4 +33,34 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy köny
  ## 8.Képernyőterv
  
  Főoldalterv:
+ 
  ![Főoldalterv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv.png)
+ 
+ Bejelnetkezés utáni főoldal (user):
+ 
+ ![Főoldalterv-user](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv(felhaszn%C3%A1l%C3%B3).png)
+ 
+ Bejelnetkezés utáni főoldal (admin):
+ 
+ ![Főoldalterv-admin](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv(admin).png)
+ 
+ Könyvek:
+ 
+ ![Könyvek-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/K%C3%B6nyvek-terv.png)
+ 
+ Írók/Szerzők:
+ 
+ ![Írók/Szerzők-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/%C3%8Dr%C3%B3k-Szerz%C5%91k-terv.png)
+ 
+ Felhasználók listája (admin):
+ 
+ ![Felhasználók-listája-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/Felhaszn%C3%A1l%C3%B3klist%C3%A1ja-terv.png)
+ 
+ Könyvek-listája-terv (admin):
+ 
+ ![Könyvek-listája-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/K%C3%B6nyveklist%C3%A1ja-terv.png)
+ 
+ Írók/Szerzők (admin):
+ 
+ ![Írók/Szerzők-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/%C3%8Dr%C3%B3k-Szerz%C5%91k-terv(admin).png)
+ 
