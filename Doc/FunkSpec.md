@@ -1,30 +1,30 @@
 ## 1. Áttekintés
 
-A renszer egy online könyvklubot és elektronikus könyvtárat valósít meg ahol a felhasználók véleményt fejthetnek ki a könyvekről, értékelhetik azokat valamint könyebben elérik az elektronikus könyveket megspórolva több percnyi böngészést.
+A rendszer egy online könyvklubot és elektronikus könyvtárat valósít meg ahol a felhasználók véleményt fejthetnek ki a könyvekről, értékelhetik azokat valamint könyebben elérik az elektronikus könyveket megspórolva több percnyi böngészést.
 Ezen kívül a felhasználóknak lehetőségük van az írók élettörténetének megismerésére is. A rendszer teljesmértékben online fog megvalósulni egy weblap keretében. A weblap kínálta lehetőség teljes mértékű kihasználásához szükséges lesz regisztrálni. Regisztráció nélkül csak egy betekintő fog megjelenni.
-A weblap teljesen ingyenes lesz, nincs semmi tartalam vagy funkció amiért fizetne kellene.
+A weblap teljesen ingyenes lesz, nincs semmi tartalom vagy funkció amiért fizetne kellene.
 
 ## 2. Jelenlegi helyzet
 
 A megrendelő szeretné jobban elérhetővé tenni az elektronikus könyveket, valamint teret szeretne biztosítani azok számára akik már csak pdf formátumú könyveket olvasnak. A teret egy online könyvklub formájában szeretné megvalósítani. 
-Azt szeretné, ha az interneten elő forduló rengeteg forrást egy helyre gyűjtenénk össze megspórolva rengeteg időt azoknak akik így olvasnak könyveket. Az interneten már találni ehhez hasonló portálokat, blogokat de azt szeretné ha ez egy jóval komplexebb hellyé válna.
+Azt szeretné, ha az interneten előforduló rengeteg forrást egy helyre gyűjtenénk össze megspórolva rengeteg időt azoknak akik így olvasnak könyveket. Az interneten már találni ehhez hasonló portálokat, blogokat de azt szeretné ha ez egy jóval komplexebb hellyé válna.
 Lehetőséget akar biztosítani, hogy az olvasók megismerjék az írók életét is egyben, segítve ezzel a minél szélesebb tudás elsajátítását. A megrendelő felismerte azt, hogy manapság az emberek már nem igazán vásárolnak könyveket, hanem inkább az ingyenes utat válasszák, és az internetről töltik le azokat.
-Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy könyvklubb aktivitásait veszi alapul a funkciók megvalósításánál.
+Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy könyvklub aktivitásait veszi alapul a funkciók megvalósításánál.
 
 ## 3. Követelménylista
 
-1. Bejelnetkezési felület:
+1. Bejelentkezési felület:
  * A felhasználók ezen a felületen jelentkeznek be a weboldalra a bővebb elérés érdekében
- * Jelszó emlékeztetőt is lehet kérni, ha elfelejtették volna a felhasználók
+ * Jelszó emlékeztetőt is lehet kérni, ha elfelejtették volna a felhasználók azt
 2. Regisztrációs felület:
  * A felhasználók itt tudnak beregisztrálni a weboldalra
-3. Profil menüpnot:
+3. Profil menüpont:
  * A felhasználók itt látják a saját adataikat, esetleg itt módosíthatják a jelszavukat is
 4. Könyvek menüpont:
  * Itt lehet elérni a weboldalon elérhető, olvasható könyveket
  * Az értékelés, a vélemény kifejtés is itt valósul meg
 5. Írók menüpont:
- * Itt található az egyes írok élettörténeti forrásához vezető linkek
+ * Itt találhatóak az egyes írok élettörténeti forrásához vezető linkek
 6. Jogosultságok:
  * Admin: teljes hozzáférése van a weboldalhoz, szerkesztheti a könyveket, az írókat és a felhasználók adatait is
  * Felhasználó: tudja olvasni a könyveket, megtekintheti az írok élettörténetét, tud értékelni és kommentelhet is
@@ -32,11 +32,11 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy köny
  
  ## 4. Jelenlegi üzleti folyamatok modellje
 
- Manapság az internet világában az olvasás nincs a könyvekhez kötve, rengeteg könyvet elérhetővé tettek már online is, amivel könnyebbé teszik hogy bárhol olvashassunk szabadidőnkben. A probléma az hogy a google kereséssel nem mindig kapunk olyan oldalt ahol eltudjuk olvasni az adott könyvet. Az oldalunk pont ennek a felesleges keresgélésnek vet véget. Egy egyszerű kereséssel megtudjuk nézni hogy a könyv megtalálható-e az interneten online formátumban. A könyvekről rövid leírást is tartalmaz az előnézet, így ha csak nézelődünk akkor is hasznos információkat kaphatunk az adott könyvről.
+ Manapság az internet világában az olvasás nincs a könyvekhez kötve, rengeteg könyvet elérhetővé tettek már online is, amivel könnyebbé teszik azt hogy bárhol olvashassunk szabadidőnkben. A probléma az hogy a google kereséssel nem mindig kapunk olyan oldalt ahol eltudjuk olvasni az adott könyvet. Az oldalunk pont ennek a felesleges keresgélésnek vet véget. Egy egyszerű kereséssel megtudjuk nézni hogy a könyv megtalálható-e az interneten online formátumban. A könyvekről rövid leírást is tartalmaz az előnézet, így ha csak nézelődünk akkor is hasznos információkat kaphatunk az adott könyvről.
 
  ## 5. Igényelt üzleti folyamatok modellje
 
- Azért hogy egyszerűbbé tegyük az online könyvek elérését létrehozunk egy online könyvtárat ahol meglehet tekinteni a könyveket, és azok rövid leírását. Ezen kívűl biztosítunk egy linket az adott könyvhöz ahol megtudjuk tekinteni a könyv tartalmát, és le is tudjuk tölteni a készülékünkre és így tudjuk olvasni akár offline formátumban is. A könyvek oldalán az írókat is megtekinthetjük, olvashatunk életútjukról és történetükről, emellett lehetőséget biztosítunk arra az hogy adott író többi művét is megtekintsük. Megnézhetjük azt hogy a közösségnek mi a véleménye az adott könyvről. Olvashatunk rövid és hosszab véleménykifejtést is.
+ Azért hogy egyszerűbbé tegyük az online könyvek elérését létrehozunk egy online könyvtárat ahol meglehet tekinteni a könyveket, és azok rövid leírását. Ezen kívűl biztosítunk egy linket az adott könyvhöz ahol megtudjuk tekinteni a könyv tartalmát, és le is tudjuk tölteni a készülékünkre és így tudjuk olvasni akár offline formátumban is. A könyvek oldalán az írókat is megtekinthetjük, olvashatunk életútjukról és történetükről, emellett lehetőséget biztosítunk arra az hogy adott író többi művét is megtekintsük. Megnézhetjük azt hogy a közösségnek mi a véleménye az adott könyvről. Olvashatunk rövid és hosszabb véleménykifejtést is.
 
  ## 6. Használati esetek
  
@@ -50,11 +50,11 @@ Felhasználó: A felhasználó megtekintheti a könyvek, valamint az írók/szer
  
  ![Főoldalterv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv.png)
  
- Bejelnetkezés utáni főoldal (user):
+ Bejelentkezés utáni főoldal (user):
  
  ![Főoldalterv-user](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv(felhaszn%C3%A1l%C3%B3).png)
  
- Bejelnetkezés utáni főoldal (admin):
+ Bejelentkezés utáni főoldal (admin):
  
  ![Főoldalterv-admin](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv(admin).png)
  
