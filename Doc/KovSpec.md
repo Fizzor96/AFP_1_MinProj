@@ -19,11 +19,30 @@ Miután létrehozta fiókját a felhasználó és bejelentkezett utánna elérhe
 A könyvek értékeléséhez szükséges egy olyan funkció kialakítása, ami pontozási lehetőséget kínál, tegyül fel egy 1-től 5-ig tartó skálán. A weblap maga egy letisztult oldal, könnyen kezelhető, mindenki számára egyértelmű működéssel bírjon. A könyveknek rendelkezni kell egy bizonyos színtű leírással vagy esetleg ajánlásokkal.
 Szükség van egy magasabb szintű felhasználóra is, aki rendelkezik jogusoltságokkal a fiókok módosításához, a könyvek feltöltéséhez, törléséhez, módosításához, írók hozzáadásához és módosításához.
 
+## 4. Funkcionális követelmények
+
+1. Bejelentkezési felület:
+ * A felhasználók ezen a felületen jelentkeznek be a weboldalra a bővebb elérés érdekében
+ * Jelszó emlékeztetőt is lehet kérni, ha elfelejtették volna a felhasználók azt
+2. Regisztrációs felület:
+ * A felhasználók itt tudnak beregisztrálni a weboldalra
+3. Profil menüpont:
+ * A felhasználók itt látják a saját adataikat, esetleg itt módosíthatják a jelszavukat is
+4. Könyvek menüpont:
+ * Itt lehet elérni a weboldalon elérhető, olvasható könyveket
+ * Az értékelés, a vélemény kifejtés is itt valósul meg
+5. Írók menüpont:
+ * Itt találhatóak az egyes írok élettörténeti forrásához vezető linkek
+6. Jogosultságok:
+ * Admin: teljes hozzáférése van a weboldalhoz, szerkesztheti a könyveket, az írókat és a felhasználók adatait is
+ * Felhasználó: tudja olvasni a könyveket, megtekintheti az írok élettörténetét, tud értékelni és kommentelhet is
+ * Vendég: csak egy betekintő áll rendelkezésre amikor megnyitja a weblapot
+
 ## 8. Követelménylista
 
 Modul | ID | Név | Kifejtés
 --- | --- | --- | ----------------------------------------------------------------------
-Jogosultság | K1 | Bejelentkezési felület | A felhasználó a felhasználónevével és jelszava segítségével helentkezhet be. Nem megfelelő felhasználónév vagy jelszó esetén, a felhasználó hibaüzenetet kap.
+Jogosultság | K1 | Bejelentkezési felület | A felhasználó a felhasználónevével és jelszava segítségével jelentkezhet be. Nem megfelelő felhasználónév vagy jelszó esetén, a felhasználó hibaüzenetet kap.
 Jogosultság | K2 | Regisztrációs felület | A felhasználó felhasználónév, e-mail cím és jelszó megadásával regisztrálhatja magát. A jelszó tárolása kódolt formában történik az adatbázisban. Bármely adat hiánya vagy a követelményeknek való nem megfelelése esetén, a felhasználó hibaüzenetet kap.
 Jogosultság | K3 | Jogosultsági szintek | -Admin: Felhasználók listája, könyvek listája/lista módosítása, írók/szerzők listája/lista módosítása <br> -Felhasználó: Könyvek listája/olvasása, írók/szerzők listája/háttér történet olvasása
 Felület | K4 | Felhasználók listája | Admin jogosultsággal megtekinthető a felhasználók felhasználóneve, e-mail címe és jogosultsági szintje.
