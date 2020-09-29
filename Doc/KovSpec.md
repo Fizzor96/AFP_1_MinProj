@@ -46,6 +46,10 @@ Opensource szoftver. Bárki által letölthető és felhasználható. Az érték
 
 Manapság az embereknek el kell menniük egy könyvtárba, kikölcsönözni egy könyvet, vagy egy könyves boltba megvásárolni azt, ha olvasni szeretne. Ilyenkor előfordulhat, hogy túl elfoglaltak ehhez, esetleg az olvasni kívánt könyv nincs a könyvtárban/könyves boltban, vagy nincs nyitva az adott létesítmény. Az oldal ezekre ad megoldást, könnyen, egész nap elérhető otthonról is. Széles könyvválasztékkal, letölthető könyvekkel. Emellett a felhasználó a szerzőkről is olvashat.
 
+## 7. Igényelt üzleti folyamatok modellje
+
+Az oldal eléréséhez internet kapcsolat szükséges, a szolgáltatások eléréséhez, pedig regisztráció, illetve bejelentkezés. A felhasználó egyszerűen kereshet a könyvek listájában, letöltheti a neki tetszőket, emellett többet megtudhat a szerzőkről is. Admin jogosultsággal szerkeszthető a könyvek és szerzők listája, ez biztosítja, hogy a felhasználók minél szélesebb körben tudjanak válogatni a könyvek között.
+
 ## 8. Követelménylista
 
 Modul | ID | Név | Kifejtés
