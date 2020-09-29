@@ -42,6 +42,10 @@ Szükség van egy magasabb szintű felhasználóra is, aki rendelkezik jogusolts
 
 Opensource szoftver. Bárki által letölthető és felhasználható. Az értékesítése nem megengedett!
 
+## 6. Jelenlegi üzleti folyamatok modellje
+
+Manapság az embereknek el kell menniük egy könyvtárba, kikölcsönözni egy könyvet, vagy egy könyves boltba megvásárolni azt, ha olvasni szeretne. Ilyenkor előfordulhat, hogy túl elfoglaltak ehhez, esetleg az olvasni kívánt könyv nincs a könyvtárban/könyves boltban, vagy nincs nyitva az adott létesítmény. Az oldal ezekre ad megoldást, könnyen, egész nap elérhető otthonról is. Széles könyvválasztékkal, letölthető könyvekkel. Emellett a felhasználó a szerzőkről is olvashat.
+
 ## 8. Követelménylista
 
 Modul | ID | Név | Kifejtés
