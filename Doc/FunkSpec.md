@@ -34,6 +34,10 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy köny
 
  Manapság az internet világában az olvasás nincs a könyvekhez kötve, rengeteg könyvet elérhetővé tettek már online is, amivel könnyebbé teszik hogy bárhol olvashassunk szabadidőnkben. A probléma az hogy a google kereséssel nem mindig kapunk olyan oldalt ahol eltudjuk olvasni az adott könyvet. Az oldalunk pont ennek a felesleges keresgélésnek vet véget. Egy egyszerű kereséssel megtudjuk nézni hogy a könyv megtalálható-e az interneten online formátumban. A könyvekről rövid leírást is tartalmaz az előnézet, így ha csak nézelődünk akkor is hasznos információkat kaphatunk az adott könyvről.
 
+ ## 5. Igényelt üzleti folyamatok modellje
+
+ Azért hogy egyszerűbbé tegyük az online könyvek elérését létrehozunk egy online könyvtárat ahol meglehet tekinteni a könyveket, és azok rövid leírását. Ezen kívűl biztosítunk egy linket az adott könyvhöz ahol megtudjuk tekinteni a könyv tartalmát, és le is tudjuk tölteni a készülékünkre és így tudjuk olvasni akár offline formátumban is. A könyvek oldalán az írókat is megtekinthetjük, olvashatunk életútjukról és történetükről, emellett lehetőséget biztosítunk arra az hogy adott író többi művét is megtekintsük. Megnézhetjük azt hogy a közösségnek mi a véleménye az adott könyvről. Olvashatunk rövid és hosszab véleménykifejtést is.
+
  ## 6. Használati esetek
  
 Admin: Az admin hozzáfér a felhasználók listájához, amely felhasználónevet, e-mail címet és jogkört tartalmaz. Ezen kívül hozzáfér a könyvek és az írók/szerzők listájához, amelyeket törölhet, módosíthat és hozzáadhat.
