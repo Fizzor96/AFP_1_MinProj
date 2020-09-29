@@ -57,7 +57,25 @@ Table "writers" {
 
 ## 11. Telepítési terv
 
-
+A szoftver webes felületéhez csak egy böngésző telepítése szükséges.
+* Windows - Google Chrome
+* Linux - Mozilla
+* Mac - Safari
+A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
+A böngésző címsorába csak az oldal címét kell beírni: xyz.com
 
 ## 12. Karbantartási terv
 
+Az alkalmazás folyamatos üzemeltetése és karbantartása, mely
+magában foglalja a programhibák elhárítását, a belső igények változása miatti
+módosításokat, valamint a környezeti feltételek változása miatt
+megfogalmazott program-, illetve állomány módosítási igényeket. Ellenőrizni kell, hogy egy adott böngészővel kompatibilis-e a webes felület. Idő elteltével újabb kategóriákkal, funkciókkal és tartalommal kell bővíteni az oldalt a felhasználói igények szerint.
+
+* Corrective Maintenance: A felhasználók által felfedezett és "user reportban"
+elküldött hibák kijavítása.
+* Adaptive Maintenance: A program naprakészen tartása és finomhangolása.
+* Perfective Maintenance: A szoftver hosszútávú használata érdekében végzett
+módosítások, új funkciók, a szoftver teljesítményének és működési
+megbízhatóságának javítása.
+* Preventive Maintenance: Olyan problémák elhárítása, amelyek még nem
+tűnnek fontosnak, de később komoly problémákat okozhatnak.

@@ -48,41 +48,55 @@ Felhasználó: A felhasználó megtekintheti a könyvek, valamint az írók/szer
  
  Főoldalterv:
  
- ![Főoldalterv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv.png)
+ ![Főoldalterv](../Doc/Képek/Főoldal-terv.png)
  
  Bejelentkezés utáni főoldal (user):
  
- ![Főoldalterv-user](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv(felhaszn%C3%A1l%C3%B3).png)
+ ![Főoldalterv-user](../Doc/Képek/Főoldal-terv(felhasználó).png)
  
  Bejelentkezés utáni főoldal (admin):
  
- ![Főoldalterv-admin](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/F%C5%91oldal-terv(admin).png)
+ ![Főoldalterv-admin](../Doc/Képek/Főoldal-terv(admin).png)
  
  Könyvek:
  
- ![Könyvek-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/K%C3%B6nyvek-terv.png)
+ ![Könyvek-terv](../Doc/Képek/Könyvek-terv.png)
  
  Írók/Szerzők:
  
- ![Írók/Szerzők-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/%C3%8Dr%C3%B3k-Szerz%C5%91k-terv.png)
+ ![Írók/Szerzők-terv](../Doc/Képek/Írók-Szerzők-terv.png)
  
  Felhasználók listája (admin):
  
- ![Felhasználók-listája-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/Felhaszn%C3%A1l%C3%B3klist%C3%A1ja-terv.png)
+ ![Felhasználók-listája-terv](../Doc/Képek/Felhasználóklistája-terv.png)
  
  Könyvek-listája-terv (admin):
  
- ![Könyvek-listája-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/K%C3%B6nyveklist%C3%A1ja-terv.png)
+ ![Könyvek-listája-terv](../Doc/Képek/Könyveklistája-terv.png)
  
  Írók/Szerzők (admin):
  
- ![Írók/Szerzők-terv](https://github.com/Fizzor96/AFP_1_MinProj/blob/master/Doc/K%C3%A9pek/%C3%8Dr%C3%B3k-Szerz%C5%91k-terv(admin).png)
+ ![Írók/Szerzők-terv](../Doc/Képek/Írók-Szerzők-terv(admin).png)
  
 
  ## 8. Forgatókönyv
 
- 
+ A program nem kíván különösebb telepítési és használati útmutatót. Elég, ha egy grafikus felülettel rendelkező webböngésző fel van telepítve ( alapértelmezett: windows - internet explorer / edge, linux: mozilla, mac - safari ). A felhasználó beüti az oldal címét: xyz.com a böngésző címsorába és rögtön át lesz irányítva az oldalra. Az oldal tartalmát a webszerver szolgáltatja a mögötte lévő adatbázis segítségével. Az oldalra átírányítva a felhasználó megkezdheti az adatbázisban lévő könyvek böngészését egy regisztráció/bejelentkezés vagy bejelntkezés után. Ha a felhasználónak bármi nemű problémája akad az oldal működésével kapcsolatban, akkor a megadott elérhetőségek alapján tudja ezt jelezni az oldal karbantartói felé.
+ Az oldal adminisztrátorai moderálják az oldalra nem illő tartalmakat a megfelelő eszközök segítségével.
+ Az oldal karbantartásáért felelős csapat pedig az oldal rendeltetésének megfelelő működését ellenőrzi és javítja a felmerülő problémákat.
 
  ## 9. Fogalomszótár
 
 - **UML** - Unified Modeling Language
+- **Reszponzív felület** - Mobilon, Tableten, PC-n igazodik a
+képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül
+üzemelhet
+- **Releváns** - fontos, lényeges, meghatározó, jelentős
+- **Corrective Maintenance:** A felhasználók által felfedezett és "user reportban"
+elküldött hibák kijavítása.
+- **Adaptive Maintenance:** A program naprakészen tartása és finomhangolása.
+- **Perfective Maintenance:** A szoftver hosszútávú használata érdekében végzett
+módosítások, új funkciók, a szoftver teljesítményének és működési
+megbízhatóságának javítása.
+- **Preventive Maintenance:** Olyan problémák elhárítása, amelyek még nem
+tűnnek fontosnak, de később komoly problémákat okozhatnak.
