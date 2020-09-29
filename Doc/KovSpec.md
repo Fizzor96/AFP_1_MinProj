@@ -38,6 +38,10 @@ Szükség van egy magasabb szintű felhasználóra is, aki rendelkezik jogusolts
  * Felhasználó: tudja olvasni a könyveket, megtekintheti az írok élettörténetét, tud értékelni és kommentelhet is
  * Vendég: csak egy betekintő áll rendelkezésre amikor megnyitja a weblapot
 
+## 5. Rendszerre vonatkozó törvények, szabványok, ajánlások
+
+Opensource szoftver. Bárki által letölthető és felhasználható. Az értékesítése nem megengedett!
+
 ## 8. Követelménylista
 
 Modul | ID | Név | Kifejtés
