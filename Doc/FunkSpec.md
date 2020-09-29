@@ -30,6 +30,10 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy köny
  * Felhasználó: tudja olvasni a könyveket, megtekintheti az írok élettörténetét, tud értékelni és kommentelhet is
  * Vendég: csak egy betekintő áll rendelkezésre amikor megnyitja a weblapot
  
+ ## 4. Jelenlegi üzleti folyamatok modellje
+
+ Manapság az internet világában az olvasás nincs a könyvekhez kötve, rengeteg könyvet elérhetővé tettek már online is, amivel könnyebbé teszik hogy bárhol olvashassunk szabadidőnkben. A probléma az hogy a google kereséssel nem mindig kapunk olyan oldalt ahol eltudjuk olvasni az adott könyvet. Az oldalunk pont ennek a felesleges keresgélésnek vet véget. Egy egyszerű kereséssel megtudjuk nézni hogy a könyv megtalálható-e az interneten online formátumban. A könyvekről rövid leírást is tartalmaz az előnézet, így ha csak nézelődünk akkor is hasznos információkat kaphatunk az adott könyvről.
+
  ## 6. Használati esetek
  
 Admin: Az admin hozzáfér a felhasználók listájához, amely felhasználónevet, e-mail címet és jogkört tartalmaz. Ezen kívül hozzáfér a könyvek és az írók/szerzők listájához, amelyeket törölhet, módosíthat és hozzáadhat.
