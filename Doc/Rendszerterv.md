@@ -150,6 +150,16 @@ Table "writers" {
 
 A webes felület HTML, CSS és PHP nyelven fog készülni. A különböző technológiákat amennyire lehet, külön fájlokba írva készítjük el, úgy csatoljuk egymáshoz. Így átláthatóbb, könnyebben változtatható és bővíthető lesz. Az adatokat egy MySql adatbázisban fogjuk tárolni. A reszponzív webdesign-t Bootstrap-pel fogjuk biztosítani.
 
+## 10. Tesztterv
+
+Az alább leírt tesztelések célja a rendszer és funkcióinak teljes körű vizsgálata, ellenőrzése.
+
+Linkek, gombok tesztelése: a teszt célja a weboldalon megjelenő linkek és gombok megfelelő működésének ellenőrzése.
+A weboldal és az adatbázis kapcsolatának vizsgálata: fel kell tudnia tölteni az adatbázist a megfelelő adatokkal és vissza kell tudnia adni azokat. Törlési, hozzáadási, módosítási műveletek tesztelése. A jelszavak megfelelő tárolásának ellenőrzése, vagyis minden jelszó titkosításának (hashelésének) ellenőrzése.
+Hibás, hiányos adatok esetén adott hibaüzenetek ellenőrzése.
+A weboldal helyes működésének ellenőrzése különböző böngészőkben pl. Firefox, Google Chrome…
+
+
 ## 11. Telepítési terv
 
 A szoftver webes felületéhez csak egy böngésző telepítése szükséges.
