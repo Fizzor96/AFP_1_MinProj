@@ -64,18 +64,18 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
     - **Képes regisztrálni és bejelentkezni**
 
   - **Menü-hierarchiák:**
-    -**Bejelentkezés**
-    -**Regisztráció**
-    -**Betekintő**
+    - **Bejelentkezés**
+    - **Regisztráció**
+    - **Betekintő**
 
-    -**Bejelentkezés után:**
-      -**Felhasználók listája:** kizárólag admin joggal rendelkező felhasználóknak
-      -**Könyvek listája:** kizárólag admin joggal rendelkező felhasználóknak
-      -**Könyvek hozzáadása:** kizárólag admin joggal rendelkező felhasználóknak
+    - **Bejelentkezés után:**
+      - **Felhasználók listája:** kizárólag admin joggal rendelkező felhasználóknak
+      - **Könyvek listája:** kizárólag admin joggal rendelkező felhasználóknak
+      - **Könyvek hozzáadása:** kizárólag admin joggal rendelkező felhasználóknak
 
-      -**Könyvek**
-      -**Szerzők**
-      -**Kijelentkezés**
+      - **Könyvek**
+      - **Szerzők**
+      - **Kijelentkezés**
 
 
 
