@@ -78,6 +78,17 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
       - **Kijelentkezés**
 
 
+## 6. Fizikai környezet
+
+  - **Az alkalmazás csak web platformra készül.**
+  - **Nincsennek megvásárolt komponensek.**
+  - **Fejlesztői eszközök:**
+    - **Visual Studio Code**
+    - **Notepad++**
+    - **Sublime text 3**
+    - **MySQL Workbench**
+    - **HediSQL**
+
 
 ## 7. Adatbázis terv
 **Táblák**
