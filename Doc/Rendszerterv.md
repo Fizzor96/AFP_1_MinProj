@@ -23,7 +23,7 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
 
 ## 3. Üzleti folyamatok modellje
 
-![Üzletimodell](../Doc/Képek/uzletimodell.png)
+![Üzletimodell](../Doc/Képek/uzletimodell.PNG)
 
 ## 7. Adatbázis terv
 **Táblák**
