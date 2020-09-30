@@ -21,6 +21,10 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
   6. Frontend design megtervezése
   7. Felhasználói felület kialakítása
 
+## 3. Üzleti folyamatok modellje
+
+![Üzletimodell](../Doc/Képek/uzletimodell.png)
+
 ## 7. Adatbázis terv
 **Táblák**
 - **felhasznalok:** Minden felhasználó, aki az oldalon regisztrált
