@@ -4,6 +4,23 @@ A rendszer célja, egy olyan weboldal kialakítása, ahol egy helyen tároljuk a
 Ezen felül lehetőséget bíztosít, a könyvek értékelésére, valamint vélemény kifejtési opciót biztosít amelyet megoszthatnak egymás között a felhasználók. Készül egy írók nevezetű menüpont is, ahol a felhasználók, megismerhetik az egyes könyvek szerzőjének élettörténetét is. Könyveket, valamint írókat az adatbázisba csak az admin felhasználó vehet fel. A regisztráció nélküli látogatók csak egy minimális betekintőt kapnak az oldalra látogatásukkor, hogy mihez férnek majd hozzá ha beregisztráltak.
 Regisztráció után kapnak teljes hozzáférést az oldal funkcióihoz. A weboldal mindenki számára egyszerű, könnyen kezelhető felületet kap.
 
+## 2. Projektterv
+
+1. Projekttszerepkörök:
+  * Termék tulajdonos: DevTrio (teljes csapat)
+2. Projekttmunkások és felelősségek:
+  * Backend munkálatok: Csapat tagjai
+  * Frontend munkálatok: Csapat tagjai
+Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkciók elkészítése az oldal megfelelő működésének érdekében, felhasználói felület kialakítása.
+1. Ütemterv:
+  1. Követelmény specifikáció
+  2. Funkcionális specifikáció
+  3. Rendszerterv
+  4. Adatbázis kialakítása
+  5. Backend funkciók elkészítése
+  6. Frontend design megtervezése
+  7. Felhasználói felület kialakítása
+
 ## 7. Adatbázis terv
 **Táblák**
 - **felhasznalok:** Minden felhasználó, aki az oldalon regisztrált
