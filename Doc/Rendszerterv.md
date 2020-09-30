@@ -81,7 +81,7 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
 ## 6. Fizikai környezet
 
   - **Az alkalmazás csak web platformra készül.**
-  - **Nincsennek megvásárolt komponensek.**
+  - **Nincsenek megvásárolt komponensek.**
   - **Fejlesztői eszközök:**
     - **Visual Studio Code**
     - **Notepad++**
@@ -93,11 +93,11 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
 
 A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A backend php alapú. A bootstrap, a CSS keretrendszer felel a reszponzív webdesign-ért.
 
-## 7. Adatbázis terv
+## 8. Adatbázis terv
 **Táblák**
 - **felhasznalok:** Minden felhasználó, aki az oldalon regisztrált
-  - **id:** Azonosító szám, mindenképp felvesz egy eglsz típusú értéket, amit a rendszer automatikusan generál és egyesével növekszik, nem lehet két azonos szám
-  - **felhasznalonev:** A felhasználók bejelntkezési/felhasználói neve, nem lehet üres
+  - **id:** Azonosító szám, mindenképp felvesz egy egész típusú értéket, amit a rendszer automatikusan generál és egyesével növekszik, nem lehet két azonos szám
+  - **felhasznalonev:** A felhasználók bejelentkezési/felhasználói neve, nem lehet üres
   - **jelszo:** Nem lehet üres a mező
   - **email:** Egyedi, tehát nem lehet két felhasználónak ugyanazon email címe és egyben nem lehet üres mező
   - **jog:** Egész érték, nem lehet üres mező
