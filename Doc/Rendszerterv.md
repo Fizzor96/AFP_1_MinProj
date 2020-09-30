@@ -81,6 +81,9 @@ Table "writers" {
 
 ![database](../Doc/Képek/dbmodell.png)
 
+## 9. Implementációs terv
+
+A webes felület HTML, CSS és PHP nyelven fog készülni. A különböző technológiákat amennyire lehet, külön fájlokba írva készítjük el, úgy csatoljuk egymáshoz. Így átláthatóbb, könnyebben változtatható és bővíthető lesz. Az adatokat egy MySql adatbázisban fogjuk tárolni. A reszponzív webdesign-t Bootstrap-pel fogjuk biztosítani.
 
 ## 11. Telepítési terv
 
