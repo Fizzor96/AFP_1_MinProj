@@ -89,6 +89,9 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
     - **MySQL Workbench**
     - **HediSQL**
 
+## 7. Architekturális terv
+
+A rendszerhez szükség van egy adatbázis szerverre, ebben az esetben MySql-t használunk. A backend php alapú. A bootstrap, a CSS keretrendszer felel a reszponzív webdesign-ért.
 
 ## 7. Adatbázis terv
 **Táblák**
