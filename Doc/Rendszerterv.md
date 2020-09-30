@@ -33,12 +33,51 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
   - **Könyvek adatainak tárolása**
   - **Könyvekhez tartozó linkek tárolása**
   - **Reszponzív webes alapú megjelenítés**
+  - **Adminisztrátor tudja szerkeszteni a könyvek adatlapjait és a hozzá tartozó linkeket**
 
   **Nem funkcionális követelmények**
   - **A felhasználók nem férnek hozzá egymás adataihoz**
 
   **Törvényi előírások, szabványok:**
   - **GDPR-nek való megfelelés**
+
+## 5. Funkcionális terv
+
+  **Rendszerszereplők:**
+  - **Adminisztrátor**
+  - **Felhasználó**
+  - **Vendég**
+
+  **Rendszerhasználati esetek és lefutásaik:**
+  - **Adminisztrátor**
+    - **Képes felhasználókat törölni**
+    - **Tudja módosítani a felhasználók jelszavát és adatait is**
+    - **Látja az összes regisztrált felhasználót**
+    - **Módosítani tudja a könyveket, azok adatait és a hozzátartozó linkeket**
+    - **Teljes hozzáférése van a rendszerhez**
+  - **Felhasználó**
+    - **Megtekintheti a könyveket, és lekérheti a hozzátartozó linkeket**
+    - **Módosíthatja a saját adatait**
+    - **Módosíthatja jelszavát**
+  - **Vendég**
+    - **Láthatja a könyveket, de a linkeket nem éri el.**
+    - **Képes regisztrálni és bejelentkezni**
+
+  - **Menü-hierarchiák:**
+    -**Bejelentkezés**
+    -**Regisztráció**
+    -**Betekintő**
+
+    -**Bejelentkezés után:**
+      -**Felhasználók listája:** kizárólag admin joggal rendelkező felhasználóknak
+      -**Könyvek listája:** kizárólag admin joggal rendelkező felhasználóknak
+      -**Könyvek hozzáadása:** kizárólag admin joggal rendelkező felhasználóknak
+
+      -**Könyvek**
+      -**Szerzők**
+      -**Kijelentkezés**
+
+
 
 ## 7. Adatbázis terv
 **Táblák**
