@@ -1,3 +1,9 @@
+## 1. Rendszer célja
+
+A rendszer célja, egy olyan weboldal kialakítása, ahol egy helyen tároljuk az interneten található online, pdf formátumú könyvek forrását, megkönnyítve ezek megtalálását.
+Ezen felül lehetőséget bíztosít, a könyvek értékelésére, valamint vélemény kifejtési opciót biztosít amelyet megoszthatnak egymás között a felhasználók. Készül egy írók nevezetű menüpont is, ahol a felhasználók, megismerhetik az egyes könyvek szerzőjének élettörténetét is. Könyveket, valamint írókat az adatbázisba csak az admin felhasználó vehet fel. A regisztráció nélküli látogatók csak egy minimális betekintőt kapnak az oldalra látogatásukkor, hogy mihez férnek majd hozzá ha beregisztráltak.
+Regisztráció után kapnak teljes hozzáférést az oldal funkcióihoz. A weboldal mindenki számára egyszerű, könnyen kezelhető felületet kap.
+
 ## 7. Adatbázis terv
 **Táblák**
 - **felhasznalok:** Minden felhasználó, aki az oldalon regisztrált
