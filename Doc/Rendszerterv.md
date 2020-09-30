@@ -25,6 +25,21 @@ Feladatuk: adatbázis létrehozása az adatok tárolásához, megfelelő funkci�
 
 ![Üzletimodell](../Doc/Képek/uzletimodell.PNG)
 
+## 4. Követelmények
+
+  **Funkcionális követelmények**
+  - **Felhasználók adatainak tárolása**
+  - **Felhasználók tudják változtatni adataikat**
+  - **Könyvek adatainak tárolása**
+  - **Könyvekhez tartozó linkek tárolása**
+  - **Reszponzív webes alapú megjelenítés**
+
+  **Nem funkcionális követelmények**
+  - **A felhasználók nem férnek hozzá egymás adataihoz**
+
+  **Törvényi előírások, szabványok:**
+  - **GDPR-nek való megfelelés**
+
 ## 7. Adatbázis terv
 **Táblák**
 - **felhasznalok:** Minden felhasználó, aki az oldalon regisztrált
