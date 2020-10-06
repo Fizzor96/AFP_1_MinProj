@@ -29,4 +29,8 @@ require_once PROTECTED_DIR.'user/login.php';
 	<li class="nav-item">
     <a class="nav-link" href="index.php?P=irok" style="color:white">Írok/Szerzők</a>
     </li>
+	<li class="nav-item">
+    <a class="nav-link" href="index.php?P=kijelentkezes" style="color:white">Kijelentkezés</a>
+    </li>
 	<?php endif;?>
+</ul>
