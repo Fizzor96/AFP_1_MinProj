@@ -15,3 +15,9 @@ require_once PROTECTED_DIR.'user/login.php';
   <li class="nav-item">
   <a class="nav-link" href="index.php?P=betekinto" style="color:white">Betekintő</a>
   </li>
+  
+	<?php if(isset($_SESSION['jog']) && $_SESSION['jog'] == 1) : ?>
+	<li class="nav-item">
+    <a class="nav-link" href="index.php?P=felhasznalolista" style="color:white">Felhasználók listája</a>
+    </li>
+	<?php endif;?>
