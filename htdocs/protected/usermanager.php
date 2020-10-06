@@ -28,4 +28,25 @@ function UserLogin($username, $password) {
 	}
 	return false;
 }
+
+function UserRegister($email, $username, $password) {
+	$query = "SELECT id FROM felhasznalok WHERE email = :email";
+	$params = [ ':email' => $email ];
+    echo'1';
+	require_once DATABASE_CONTROLLER;
+	$record = getRecord($query, $params);
+	if(empty($record)) {
+        echo'2';
+		$query = "INSERT INTO felhasznalok (felhasznalonev, jelszo, email) VALUES (:felhasznalonev, :jelszo, :email)";
+		$params = [
+			':felhasznalonev' => $username,
+			':jelszo' => sha1($password),
+			':email' => $email
+		];
+
+		if(executeDML($query, $params)) 
+            header('Location: index.php?P=login');
+	} 
+	return false;
+}
 ?>
