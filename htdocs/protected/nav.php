@@ -6,3 +6,6 @@ require_once PROTECTED_DIR.'user/login.php';
   <a class="nav-link" href="index.php?P=home" style="color:white">Főoldal</a>
   </li>
   
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="modal" href="#exampleModal"style="color:white" >Bejelentkezés</a>
+  </li>
