@@ -24,3 +24,6 @@ require_once PROTECTED_DIR.'user/login.php';
     <a class="nav-link" href="index.php?P=konyvlista" style="color:white">Könyvek listája</a>
     </li>
 	<?php endif;?>
+	<li class="nav-item">
+    <a class="nav-link" href="index.php?P=konyvek" style="color:white">Könyvek</a>
+    </li>
