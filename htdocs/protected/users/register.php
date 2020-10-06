@@ -1,4 +1,28 @@
+<?php 
 
+if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
+	$postData = [
+		'felhasznalonev' => $_POST['felhasznalonev'],
+		'jelszo' => $_POST['jelszo'],
+		'jelszoujra' => $_POST['jelszoujra'],
+		'email' => $_POST['email'],
+		'emailujra' => $_POST['emailujra'],
+	];
+	if(empty($postData['felhasznalonev']) || empty($postData['jelszo']) || empty($postData['jelszoujra']) || empty($postData['email']) || empty($postData['emailujra'])) {
+		echo "Hiányzó adatok!";
+
+	} else if(!filter_var($postData['email'], FILTER_VALIDATE_EMAIL)) {
+		echo "Hibás email formátum!";
+	}
+	else if ($postData['email'] != $postData['emailujra']) {
+			echo "Az emailek nem egyeznek!";
+	} else if ($postData['jelszo'] != $postData['jelszoujra']) {
+		echo "A jelszavak nem egyeznek!";
+	}  else if(!UserRegister($postData['email'], $postData['felhasznalonev'], $postData['jelszo'])) {
+		echo "Sikertelen regisztráció!";
+	}
+}
+?>
 <br>
 <br>
 <br>
