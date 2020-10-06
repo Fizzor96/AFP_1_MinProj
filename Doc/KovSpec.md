@@ -47,8 +47,20 @@ Opensource szoftver. Bárki által letölthető és felhasználható. Az érték
 Manapság az embereknek el kell menniük egy könyvtárba, kikölcsönözni egy könyvet, vagy egy könyves boltba megvásárolni azt, ha olvasni szeretne. Ilyenkor előfordulhat, hogy túl elfoglaltak ehhez, esetleg az olvasni kívánt könyv nincs a könyvtárban/könyves boltban, vagy nincs nyitva az adott létesítmény. Az oldal ezekre ad megoldást, könnyen, egész nap elérhető otthonról is. Széles könyvválasztékkal, letölthető könyvekkel. Emellett a felhasználó a szerzőkről is olvashat.
 
 ## 7. Igényelt üzleti folyamatok modellje
-
-Az oldal eléréséhez internet kapcsolat szükséges, a szolgáltatások eléréséhez, pedig regisztráció, illetve bejelentkezés. A felhasználó egyszerűen kereshet a könyvek listájában, letöltheti a neki tetszőket, emellett többet megtudhat a szerzőkről is. Admin jogosultsággal szerkeszthető a könyvek és szerzők listája, ez biztosítja, hogy a felhasználók minél szélesebb körben tudjanak válogatni a könyvek között.
+    
+    7.1 Bejelentkezés
+        7.1.1 Könyvek menüpont -> Könyv kiválasztása -> Linkek megnyitása
+        7.1.2 Szerzők menüpont -> Szerző kiválasztása -> Szerző életének megnyitása
+        Admin joggal rendelkezőknek:
+        7.1.3 Szerzők hozzáadása/törlése
+        7.1.4 Könyvek hozzáadása/törlése
+        7.1.5 Szerzők szerkesztése
+        7.1.6 Könyvek szerkesztése
+        7.1.7 Felhasználók szerkesztése
+        7.1.8 Felhasználók listázása
+        7.1.9 Felhasználók törlése
+        7.1.10 Kijelentkezés
+    7.2 Regisztráció
 
 ## 8. Követelménylista
 
