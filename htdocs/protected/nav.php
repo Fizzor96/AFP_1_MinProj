@@ -12,3 +12,6 @@ require_once PROTECTED_DIR.'user/login.php';
   <li class="nav-item">
     <a class="nav-link" href="index.php?P=register"style="color:white">Regisztráció</a>
   </li>
+  <li class="nav-item">
+  <a class="nav-link" href="index.php?P=betekinto" style="color:white">Betekintő</a>
+  </li>
