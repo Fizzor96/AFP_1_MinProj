@@ -7,3 +7,10 @@ body
 {
 	background-color: #2a7886;
 }
+footer
+{
+	background-color: #2a7886;
+	position:fixed;
+	bottom:0;
+	width:100%;
+}
