@@ -74,24 +74,7 @@ Felület | K6 | Könyvek | Minden jogosultsági szint hozzáférhet, a könyvek 
 Felület | K7 | Könyvek olvasása | A Könyvek menüben minden könyv címe, műfaja mellett elérhető egy „Olvasni szeretném!” opció, amely átviszi a felhasználót egy másik oldalra, ahol letöltheti a könyvet több, tetszőleges formátumban. Minden jogosultsági szinten elérhető.
 Felület | K8 | Írók/szerzők | Minden jogosultsági szinten elérhető az írók/szerzők listája, ahol teljes néven, származáson kívül egy „Háttér történet” opció is elérhető, amelyen az adott szerzőről olvashat a felhasználó. Admin jogosultsággal módosítható az írók/szerzők listája.
 
-## 9. Riportok
-
-Riport típusa: irányított.
-
-A megadott szempontok alapján kérem értékelje 1-től 5-ig (1 = nagyon rossz, 5 = nagyon jó) az oldalt.
-
-Értékek | 1 | 2 | 3 | 4 | 5
---- | --- | --- | --- | --- | ---
-Önnek mennyire tetszik az oldal design-ja? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
-Ön mennyire érzi reszponzívnak az oldalt? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
-Mennyire releváns az Ön számára az oldal tartalma? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
-Milyen könnyen tud eligazodni az oldalon? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
-Összességében mennyire tetszik Önnek az oldal? | ⬜️ | ⬜️ | ⬜️ | ⬜️ | ⬜️
-Egyéb észrevétel/javaslat: | 
-
-<br>
-
-## 10. Fogalomtár
+## 9. Fogalomtár
 
 - **UML** - Unified Modeling Language
 - **Reszponzív felület** - Mobilon, Tableten, PC-n igazodik a
