@@ -12,7 +12,7 @@ if(!array_key_exists('P', $_GET) || empty($_GET['P']))
 
 		case 'home': require_once PROTECTED_DIR.'normal/home.php'; break;
 		case 'konyvlista':IsUserLoggedIn() ?  require_once PROTECTED_DIR.'normal/konyvlista.php' : header('Location: index.php'); break;
-		case 'felhasznalolista':IsUserLoggedIn() ?  require_once PROTECTED_DIR.'user/felhasznalolista.php' : header('Location: index.php'); break;
+		case 'felhasznalolista':IsUserLoggedIn() ?  require_once PROTECTED_DIR.'users/felhasznalolista.php' : header('Location: index.php'); break;
 		case 'konyvek':IsUserLoggedIn() ?  require_once PROTECTED_DIR.'normal/konyvek.php' : header('Location: index.php'); break;
 		case 'addkonyv':IsUserLoggedIn() ?  require_once PROTECTED_DIR.'normal/addkonyv.php' : header('Location: index.php'); break;
 		case 'konyvmodosit':IsUserLoggedIn() ?  require_once PROTECTED_DIR.'normal/konyvmodosit.php' : header('Location: index.php'); break;
