@@ -10,3 +10,6 @@ Lépés | Funkció | Tesztelés leírása | Státusz | Megjegyzés | Aláírás 
 5 | Könyvek kiíratása | Az adatbázisban lévő könyvek kiírása | Siker | - | Szőke Dominik | 2020.10.07
 6 | Felhasználók törlése | Az adatbázisban lévő rekord törlése a megadott paraméterek alapján | Siker | - | Szőke Dominik | 2020.10.07
 7 | Írók törlése | Az adatbázisban lévő rekord törlése a megadott paraméterek alapján | Siker | - | Szőke Dominik | 2020.10.07
+8 | Kijelentkezés | Kijelentkezés funkció tesztelése | Siker | - | Szőke Dominik | 2020.10.07
+9 | Adatbázis kapcsolat | Adatbázis kapcsolat létesítése | Fail | Elírás történt | Szőke Dominik | 2020.10.07
+10 | Adatbázis kapcsolat | Adatbázis kapcsolat létesítése | Siker | - | Szőke Dominik | 2020.10.07
