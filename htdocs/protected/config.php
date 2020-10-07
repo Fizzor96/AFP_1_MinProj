@@ -5,6 +5,7 @@ define('PROTECTED_DIR', BASE_DIR.'protected/');
 define('NORMAL_DIR', BASE_DIR.'normal/');
 
 define('DATABASE_CONTROLLER', PROTECTED_DIR.'database.php');
+define('USER_MANAGER', PROTECTED_DIR.'usermanager.php');
 
 
 define('DB_TYPE', 'mysql');
