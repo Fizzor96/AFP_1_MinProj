@@ -1,12 +1,13 @@
 ## 1. Áttekintés
 
-A rendszer egy online könyvklubot és elektronikus könyvtárat valósít meg ahol a felhasználók véleményt fejthetnek ki a könyvekről, értékelhetik azokat valamint könyebben elérik az elektronikus könyveket megspórolva több percnyi böngészést.
-Ezen kívül a felhasználóknak lehetőségük van az írók élettörténetének megismerésére is. A rendszer teljesmértékben online fog megvalósulni egy weblap keretében. A weblap kínálta lehetőség teljes mértékű kihasználásához szükséges lesz regisztrálni. Regisztráció nélkül csak egy betekintő fog megjelenni.
-A weblap teljesen ingyenes lesz, nincs semmi tartalom vagy funkció amiért fizetne kellene.
+A rendszer célja egy Webes felülettel rendelkező elektronikus könyvtár létrehozása. Ezen felületen összegyűjtjük a könyvekhez vezető forrásokat a könnyebb elérés és kezelés érdekében.
+Ezután az eltárolt könyveket jelenítjük meg a weblapon biztosítva különbőző szűrési feltételeket a könnyebb keresés érdekében. A felhasználóknak lehetőségük lesz értékelni a könyveket, vagy éppen véleményt tudnak kifejteni az adott könyvről.
+Továbbá lehetőséget biztosítunk egyes írók élettörténetéhez vezető források elérését azért, hogy a felhalsználók megismerjék kedvenc könyveik íróját vagy csak szimplán tudásuk bővítése érdekében. Ezen funkciókat valamint az összegyűjtött könyveket nem szeretnénk mindenki számára elérhetővé tenni, hanem egy feltételt szabnánk ezek eléréséhez különböző biztonsági okokból. A weblap teljesen ingyenes lesz, nincs semmi tartalom vagy funkció amiért fizetne kellene.
 
 ## 2. Jelenlegi helyzet
 
-A megrendelő szeretné jobban elérhetővé tenni az elektronikus könyveket, valamint teret szeretne biztosítani azok számára akik már csak pdf formátumú könyveket olvasnak. A teret egy online könyvklub formájában szeretné megvalósítani. 
+A megrendelő szeretné jobban elérhetővé tenni az elektronikus könyveket, valamint teret szeretne biztosítani azok számára akik már csak pdf formátumú könyveket olvasnak.
+A megrendelő számára kiemelten fontos, hogy a könyvolvasók továbbra is tartsák meg magukban a vágyat a könyvek olvasására, és hogy minnél több emberrel megszerettese a könyveket. Ezért kért fel minket, hogy készítsünk számára egy weblapot, egy virtuális teret amely ezt a szándékát segíti. A teret egy online könyvklub formájában szeretné megvalósítani. 
 Azt szeretné, ha az interneten előforduló rengeteg forrást egy helyre gyűjtenénk össze megspórolva rengeteg időt azoknak akik így olvasnak könyveket. Az interneten már találni ehhez hasonló portálokat, blogokat de azt szeretné ha ez egy jóval komplexebb hellyé válna.
 Lehetőséget akar biztosítani, hogy az olvasók megismerjék az írók életét is egyben, segítve ezzel a minél szélesebb tudás elsajátítását. A megrendelő felismerte azt, hogy manapság az emberek már nem igazán vásárolnak könyveket, hanem inkább az ingyenes utat válasszák, és az internetről töltik le azokat.
 Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy könyvklub aktivitásait veszi alapul a funkciók megvalósításánál.
