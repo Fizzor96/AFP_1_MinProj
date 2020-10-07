@@ -6,8 +6,8 @@ if(!array_key_exists('P', $_GET) || empty($_GET['P']))
 
 
 	switch ($_GET['P']) {
-		case 'login':!IsUserLoggedIn() ? require_once PROTECTED_DIR.'user/login.php' : header('Location: index.php'); break;
-		case 'register':!IsUserLoggedIn() ? require_once PROTECTED_DIR.'user/register.php' : header('Location: index.php'); break; 
+		case 'login':!IsUserLoggedIn() ? require_once PROTECTED_DIR.'users/login.php' : header('Location: index.php'); break;
+		case 'register':!IsUserLoggedIn() ? require_once PROTECTED_DIR.'users/register.php' : header('Location: index.php'); break; 
 		case 'betekinto': !IsUserLoggedIn() ? require_once PROTECTED_DIR.'normal/betekinto.php' : header('Location: index.php'); break;
 
 		case 'home': require_once PROTECTED_DIR.'normal/home.php'; break;
