@@ -37,7 +37,20 @@ Ezt megragadva kérte, hogy készítsünk el egy olyan weblapot, amely egy köny
 
  ## 5. Igényelt üzleti folyamatok modellje
 
- Azért hogy egyszerűbbé tegyük az online könyvek elérését létrehozunk egy online könyvtárat ahol meglehet tekinteni a könyveket, és azok rövid leírását. Ezen kívűl biztosítunk egy linket az adott könyvhöz ahol megtudjuk tekinteni a könyv tartalmát, és le is tudjuk tölteni a készülékünkre és így tudjuk olvasni akár offline formátumban is. A könyvek oldalán az írókat is megtekinthetjük, olvashatunk életútjukról és történetükről, emellett lehetőséget biztosítunk arra az hogy adott író többi művét is megtekintsük. Megnézhetjük azt hogy a közösségnek mi a véleménye az adott könyvről. Olvashatunk rövid és hosszabb véleménykifejtést is.
+ 7.1 Bejelentkezés
+        7.1.1 Könyvek menüpont -> Könyv kiválasztása -> Linkek megnyitása
+        7.1.2 Szerzők menüpont -> Szerző kiválasztása -> Szerző életének megnyitása
+        Admin joggal rendelkezőknek:
+        7.1.3 Szerzők hozzáadása/törlése
+        7.1.4 Könyvek hozzáadása/törlése
+        7.1.5 Szerzők szerkesztése
+        7.1.6 Könyvek szerkesztése
+        7.1.7 Felhasználók szerkesztése
+        7.1.8 Felhasználók listázása
+        7.1.9 Felhasználók törlése
+        7.1.10 Kijelentkezés
+    7.2 Regisztráció
+
 
  ## 6. Használati esetek
  
